@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* 768以上 */
+@media screen and (min-width: 48em){
+    /* Default Styles */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* Mainvisual */
+    .social-links {
+        font-size: 2.5rem;
+    }
+
+    .fa-brands, .qiita-image {
+        height: 2.5rem; 
+    }
+}
+
+
+
+

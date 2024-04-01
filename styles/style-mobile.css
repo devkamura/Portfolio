@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.social-links {
+    font-size: 2rem;
+}
+
+.fa-brands, .qiita-image {
+    height: 2rem; 
+}
+

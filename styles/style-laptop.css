@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 1280以上 */
+@media screen and (min-width: 64em){
+    /* Default Styles */
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    li {
+        font-size: 1.875rem;
+    }
+
+    p {
+        font-size: 1.4375rem;
+    }
+
+    /* Mainvisual */
+    .social-links {
+        font-size: 3rem;
+    }
+
+    .fa-brands, .qiita-image {
+        height: 3rem; 
+    } 
+
+    /* Hobby */
+    .title {
+        font-size: 3rem;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+
+
