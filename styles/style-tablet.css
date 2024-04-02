@@ -20,12 +20,16 @@
     }
 
     /* Mainvisual */
-    .social-links {
+    i {
         font-size: 2.5rem;
     }
 
-    .fa-brands, .qiita-image {
+    .qiita-image {
         height: 2.5rem; 
+    }
+
+    .social-links li{
+        height: 2.5rem;
     }
 }
 

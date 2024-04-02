@@ -16,11 +16,15 @@ p {
     font-size: 0.8rem;
 }
 
-.social-links {
+i {
     font-size: 2rem;
 }
 
-.fa-brands, .qiita-image {
+.qiita-image {
     height: 2rem; 
+}
+
+.social-links li{
+    height: 2rem;
 }
 
