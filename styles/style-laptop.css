@@ -20,13 +20,17 @@
     }
 
     /* Mainvisual */
-    .social-links {
+    i {
         font-size: 3rem;
     }
 
-    .fa-brands, .qiita-image {
+    .qiita-image {
         height: 3rem; 
     } 
+
+    .social-links li{
+        height: 3rem;
+    }
 
     /* Hobby */
     .title {
