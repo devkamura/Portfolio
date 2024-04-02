@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 768以上 */
-@media screen and (min-width: 48em){
+@media screen and (min-width: 768px){
     /* Default Styles */
     h1 {
         font-size: 2.5rem;
@@ -16,7 +16,7 @@
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /* Mainvisual */
@@ -31,6 +31,12 @@
     .social-links li{
         height: 2.5rem;
     }
+
+    /* Hobby  */
+    .sentence-bottom {
+        font-size: 1.1rem;
+    }
+
 }
 
 

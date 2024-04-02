@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 1280以上 */
-@media screen and (min-width: 64em){
+@media screen and (min-width: 1240px){
     /* Default Styles */
     h1 {
         font-size: 3rem;
@@ -41,6 +41,14 @@
         font-size: 1.5rem;
     }
 
+    .sentence-bottom {
+        font-size: 1.2rem;
+    }
+
+    /* Skills */
+    .skills-container th {
+        font-size: 1.5rem;
+    }
 
 }
 

@@ -26,8 +26,16 @@ h1, h2, h3 {
 
 p {
     color: #504A4A;
-    font-weight: bold;
     font-family: "Noto Sans JP";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-family: "Piazzolla", serif;
+    color: #504A4A;
 }
 
 /* Reusable Classes */
@@ -139,6 +147,12 @@ TODO なぜこの記述方法なのか　親要素がレスポンシブ対応に
     margin-right: 3%;
 }
 
+.hobby-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hobby-contents {
     width: 50%;
     display: flex;
@@ -152,4 +166,45 @@ TODO　なぜdisplayにblockをつけるのか
     width: 100%;
     height: auto;
 }
+
+/* Skills */
+#skills {
+    margin-bottom: 100px;
+}
+
+#skills .title {
+    margin-bottom: 48px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills-container table {
+    width: 50%;
+    margin-right: 3%;
+}
+
+.skills-container tr {
+    border-bottom: 1px #504A4A solid ;
+}
+
+.skills-container th {
+    text-align: left;
+    padding-top: 12px;
+}
+
+.skills-container tr:first-child th{
+    padding-top: 0;
+}
+
+
+
+.skills-container .skills-contents {
+    width: 50%;
+}
+
+
+
+
 
