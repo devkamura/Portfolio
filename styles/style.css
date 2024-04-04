@@ -158,7 +158,13 @@ TODO なぜこの記述方法なのか　親要素がレスポンシブ対応に
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-weight: 600;
 }
+
+.hobby-contents p:first-child {
+    text-indent: 1rem;
+}
+
 
 TODO　なぜdisplayにblockをつけるのか
 .hobby-image img {
@@ -172,37 +178,58 @@ TODO　なぜdisplayにblockをつけるのか
     margin-bottom: 100px;
 }
 
-#skills .title {
-    margin-bottom: 48px;
+.skill-experience {
+    font-family: "Noto Sans JP";
+    color: #504A4A;
 }
 
-.skills-container {
+.skill-experience-items {
     display: flex;
 }
 
-.skills-container table {
-    width: 50%;
-    margin-right: 3%;
+.skill-experience-items li {
+    font-family: "Noto Sans JP";
+    font-size: 1.2rem;
+    color: #504A4A;
+    padding: 0 12px;
 }
 
-.skills-container tr {
+.skill-experience-items li:first-child {
+    padding-left: 0;
+}
+
+.skill-experience-items li + li {
+    border-left: 2px #504A4A solid;
+}
+
+.skills-table {
+    width: 100%;
+}
+
+.skills-table tr {
     border-bottom: 1px #504A4A solid ;
 }
 
-.skills-container th {
+.skills-table th {
     text-align: left;
     padding-top: 12px;
+    padding-right: 15px;
+    width: 30%;
+    border-right: 1px #504A4A solid;
 }
 
-.skills-container tr:first-child th{
+.skills-table tr:first-child th{
     padding-top: 0;
 }
 
+/* .skills-table tr td:first-child {
+    border-right: 1px #504A4A solid;
+} */
 
-
-.skills-container .skills-contents {
-    width: 50%;
+.experience-mark-star::before {
+    content: "☆";
 }
+
 
 
 
