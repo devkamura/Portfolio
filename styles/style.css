@@ -251,6 +251,17 @@ header {
     content: "△";
 }
 
+.skills-accordion-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #504A4A;
+}
+
+.material-symbols-outlined {
+    font-size: 2.5rem;
+}
+
 
 
 
