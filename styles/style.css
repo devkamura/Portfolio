@@ -26,8 +26,16 @@ h1, h2, h3 {
 
 p {
     color: #504A4A;
-    font-weight: bold;
     font-family: "Noto Sans JP";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-family: "Piazzolla", serif;
+    color: #504A4A;
 }
 
 /* Reusable Classes */
@@ -139,12 +147,24 @@ TODO なぜこの記述方法なのか　親要素がレスポンシブ対応に
     margin-right: 3%;
 }
 
+.hobby-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hobby-contents {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-weight: 600;
 }
+
+.hobby-contents p:first-child {
+    text-indent: 1rem;
+}
+
 
 TODO　なぜdisplayにblockをつけるのか
 .hobby-image img {
@@ -152,4 +172,86 @@ TODO　なぜdisplayにblockをつけるのか
     width: 100%;
     height: auto;
 }
+
+/* Skills */
+#skills {
+    margin-bottom: 100px;
+}
+
+.skill-experience {
+    font-family: "Noto Sans JP";
+    color: #504A4A;
+}
+
+.skill-experience-items {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.skill-experience-items li {
+    font-family: "Noto Sans JP";
+    font-size: 1.2rem;
+    color: #504A4A;
+    padding: 0 12px;
+}
+
+.skill-experience-items li:first-child {
+    padding-left: 0;
+}
+
+.skill-experience-items li + li {
+    border-left: 2px #504A4A solid;
+}
+
+.table-supplement {
+    font-size: 0.8rem;
+}
+
+.skills-table {
+    width: 100%;
+    border: 2px #504A4A solid;
+    font-size: 1.2rem;
+}
+
+.skills-table tr {
+    border-bottom: 1px #504A4A solid;
+}
+
+.skills-table tr:nth-child(odd) {
+    background-color: #FBD8BF;
+}
+
+.skills-table th {
+    text-align: left;
+    padding: 12px 16px 0 16px;
+    width: 20%;
+    border-right: 1px #504A4A solid;
+}
+
+.skills-table td {
+    padding-top :12px;
+    text-align: center;
+}
+
+.experience-mark {
+    border-right: 1px #504A4A solid;
+    width: 10%;
+}
+
+.experience-mark-css {
+    color: #504A4A;
+}
+
+.experience-mark-star::before {
+    content: "☆";
+}
+
+.experience-mark-triangle::before {
+    content: "△";
+}
+
+
+
+
+
 
