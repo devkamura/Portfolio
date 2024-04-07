@@ -98,12 +98,13 @@ header {
     align-items: center;
 }
 
-TODO なぜこの記述方法なのか　親要素がレスポンシブ対応になっているため、自動的にレスポンシブ対応になる。
+/* TODO なぜこの記述方法なのか　親要素がレスポンシブ対応になっているため、自動的にレスポンシブ対応になる。 */
 .mainvisual-image img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
+    border-radius: 50%;
 }
 
 .mainvisual-contents {
@@ -166,7 +167,7 @@ TODO なぜこの記述方法なのか　親要素がレスポンシブ対応に
 }
 
 
-TODO　なぜdisplayにblockをつけるのか
+/* TODO　なぜdisplayにblockをつけるのか */
 .hobby-image img {
     display: block;
     width: 100%;
