@@ -11,8 +11,6 @@ html {
 
 li {
     list-style: none;
-    font-family: "Piazzolla", serif;
-    font-weight: bold;
 }
 
 a {
@@ -21,7 +19,7 @@ a {
 }
 
 h1, h2, h3 {
-    font-family: "Piazzolla", serif;
+    font-family: "Piazzolla", "serif";
 }
 
 p {
@@ -34,7 +32,7 @@ table {
 }
 
 th {
-    font-family: "Piazzolla", serif;
+    font-family: "Piazzolla", "serif";
     color: #504A4A;
 }
 
@@ -76,6 +74,11 @@ header {
     display: flex;
 }
 
+.header-nav li {
+    font-family: "Piazzolla", "serif";
+    font-weight: bold;
+}
+
 .header-nav ul li + li{
     margin-left: 30px;
 }
@@ -98,7 +101,6 @@ header {
     align-items: center;
 }
 
-/* TODO なぜこの記述方法なのか　親要素がレスポンシブ対応になっているため、自動的にレスポンシブ対応になる。 */
 .mainvisual-image img {
     max-width: 100%;
     max-height: 100%;
@@ -130,7 +132,7 @@ header {
 }
 
 .social-links li + li {
-    margin-right: 28px;
+    margin-left: 28px;
 }
 
 /* Hobby */
@@ -191,7 +193,7 @@ header {
 
 .skill-experience-items li {
     font-family: "Noto Sans JP";
-    font-size: 1.2rem;
+    font-weight: bold;
     color: #504A4A;
     padding: 0 12px;
 }
@@ -212,6 +214,7 @@ header {
     width: 100%;
     border: 2px #504A4A solid;
     font-size: 1.2rem;
+    color: #504A4A;
 }
 
 .skills-table tr {

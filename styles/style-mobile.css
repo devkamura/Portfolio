@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+/* Default Styles */
 h1 {
     font-size: 2rem;
 }
 
 h2 {
     font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.9rem;
 }
 
 li {
@@ -15,6 +20,8 @@ li {
 p {
     font-size: 0.8rem;
 }
+
+/* Mainvisual */
 
 i {
     font-size: 2rem;
@@ -26,5 +33,31 @@ i {
 
 .social-links li{
     height: 2rem;
+}
+
+/* Hobby  */
+.title {
+    font-size: 2rem;
+}
+
+.sub-title {
+    font-size: 0.5rem;
+}
+
+.sentence-bottom {
+    font-size: 0.6rem;
+}
+
+/* Skills */
+.skill-experience-items li {
+    font-size: 0.9rem;
+}
+
+.skills-table th {
+    font-size: 0.9rem;
+}
+
+.skills-table td {
+    font-size: 0.8rem;
 }
 

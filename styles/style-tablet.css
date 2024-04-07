@@ -11,6 +11,10 @@
         font-size: 1.5rem;
     }
 
+    h3 {
+        font-size : 1.2rem;
+    }
+
     li {
         font-size: 1.5rem;
     }
@@ -33,7 +37,28 @@
     }
 
     /* Hobby  */
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .sub-title {
+        font-size: 1rem;
+    }
+
     .sentence-bottom {
+        font-size: 1rem;
+    }
+
+    /* Skills */
+    .skill-experience-items li {
+        font-size: 1.2rem;
+    }
+
+    .skills-table th {
+        font-size: 1.2rem;
+    }
+
+    .skills-table td {
         font-size: 1.1rem;
     }
 

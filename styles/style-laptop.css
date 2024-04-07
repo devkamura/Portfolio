@@ -50,8 +50,16 @@
     }
 
     /* Skills */
-    .skills-container th {
+    .skill-experience-items li {
         font-size: 1.5rem;
+    }
+
+    .skills-table th {
+        font-size: 1.5rem;
+    }
+
+    .skills-table td {
+        font-size: 1.4rem;
     }
 
 }
