@@ -50,24 +50,12 @@ th {
 /* Header */
 header {
     background-color: #FCAE76;
-    height: 92px;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-}
-
-.header-logo {
-    width: 116px;
-    height: 73px;
-}
-
-.header-logo img {
-    display: block;
-    width: 100%;
-    height: 100%;
 }
 
 .header-nav ul {
@@ -87,18 +75,6 @@ header {
 #mainvisual {
     background-color: #FCAE76;
     padding: 5% 0;
-    margin-bottom: 100px;
-}
-
-.mainvisual-container {
-    display: flex;
-}
-
-.mainvisual-image {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .mainvisual-image img {
@@ -107,13 +83,7 @@ header {
     width: auto;
     height: auto;
     border-radius: 50%;
-}
-
-.mainvisual-contents {
-    width: 70%;
-    margin-left: 3.75rem;
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .mainvisual-title, .mainvisual-subtitle {
@@ -125,45 +95,11 @@ header {
     font-weight: 700;
 }
 
-.social-links {
-    display: flex;
-    align-items: center;
-    margin-top: 56px;
-}
-
 .social-links li + li {
     margin-left: 28px;
 }
 
 /* Hobby */
-#hobby {
-    margin-bottom: 100px;
-}
-
-.hobby-container {
-    margin-top: 24px;
-    display: flex;
-}
-
-.hobby-image {
-    width: 50%;
-    margin-right: 3%;
-}
-
-.hobby-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hobby-contents {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-weight: 600;
-}
-
 .hobby-contents p:first-child {
     text-indent: 1rem;
 }
@@ -174,20 +110,16 @@ header {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 12px;
 }
 
 /* Skills */
-#skills {
-    margin-bottom: 100px;
-}
-
 .skill-experience {
     font-family: "Noto Sans JP";
     color: #504A4A;
 }
 
 .skill-experience-items {
-    display: flex;
     margin-bottom: 8px;
 }
 
@@ -195,15 +127,6 @@ header {
     font-family: "Noto Sans JP";
     font-weight: bold;
     color: #504A4A;
-    padding: 0 12px;
-}
-
-.skill-experience-items li:first-child {
-    padding-left: 0;
-}
-
-.skill-experience-items li + li {
-    border-left: 2px #504A4A solid;
 }
 
 .table-supplement {
