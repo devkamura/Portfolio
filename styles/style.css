@@ -27,15 +27,6 @@ p {
     font-family: "Noto Sans JP";
 }
 
-table {
-    border-collapse: collapse;
-}
-
-th {
-    font-family: "Piazzolla", "serif";
-    color: #504A4A;
-}
-
 /* Reusable Classes */
 .container {
     max-width: 1280px;
@@ -133,16 +124,65 @@ header {
     font-size: 0.8rem;
 }
 
+th {
+    font-family: "Piazzolla", "serif";
+    color: #504A4A;
+}
+
 .skills-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    border-top: 2px #504A4A solid;
+    border-left: 2px #504A4A solid;
     width: 100%;
-    border: 2px #504A4A solid;
     font-size: 1.2rem;
     color: #504A4A;
 }
 
-.skills-table tr {
+.skills-table th, .skills-table td {
+    border-right: 1px #504A4A solid;
     border-bottom: 1px #504A4A solid;
 }
+
+.skills-table td:last-child {
+    border-right: 2px #504A4A solid;
+}
+
+.skills-table tr:last-child th, .skills-table tr:last-child td {
+    border-bottom: 2px #504A4A solid;
+}
+
+/* アコーディオンが閉じている場合 */
+.skills-table tr:nth-child(5) th, .skills-table tr:nth-child(5) td {
+    border-bottom: 2px #504A4A solid;
+}
+
+.skills-table tr:first-child th {
+    border-radius: 8px 0 0 0;
+}
+
+.skills-table tr:first-child td:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+.skills-table tr:last-child th {
+    border-radius: 0 0 0 8px;
+}
+
+.skills-table tr:last-child td:last-child {
+    border-radius: 0 0 8px 0;
+}
+
+/* アコーディオンが閉じている場合 */
+.skills-table tr:nth-child(5) td:last-child {
+    border-radius: 0 0 8px 0;
+}
+
+.skills-table tr:nth-child(5) th {
+    border-radius: 0 0 0 8px;
+}
+
 
 .skills-table tr:nth-child(odd) {
     background-color: #FBD8BF;
@@ -152,7 +192,6 @@ header {
     text-align: left;
     padding: 12px 16px 0 16px;
     width: 20%;
-    border-right: 1px #504A4A solid;
 }
 
 .skills-table td {
@@ -161,7 +200,6 @@ header {
 }
 
 .experience-mark {
-    border-right: 1px #504A4A solid;
     width: 10%;
 }
 
