@@ -82,6 +82,10 @@
         font-size: 1.5rem;
     }
 
+    .title, .sub-title {
+        text-align: left;
+    }
+
     .hobby-supplement-mobile {
         display: none;
     }
