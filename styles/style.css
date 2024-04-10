@@ -11,8 +11,6 @@ html {
 
 li {
     list-style: none;
-    font-family: "Piazzolla", serif;
-    font-weight: bold;
 }
 
 a {
@@ -21,7 +19,7 @@ a {
 }
 
 h1, h2, h3 {
-    font-family: "Piazzolla", serif;
+    font-family: "Piazzolla", "serif";
 }
 
 p {
@@ -34,7 +32,7 @@ table {
 }
 
 th {
-    font-family: "Piazzolla", serif;
+    font-family: "Piazzolla", "serif";
     color: #504A4A;
 }
 
@@ -52,28 +50,21 @@ th {
 /* Header */
 header {
     background-color: #FCAE76;
-    height: 92px;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-}
-
-.header-logo {
-    width: 116px;
-    height: 73px;
-}
-
-.header-logo img {
-    display: block;
-    width: 100%;
-    height: 100%;
 }
 
 .header-nav ul {
     display: flex;
+}
+
+.header-nav li {
+    font-family: "Piazzolla", "serif";
+    font-weight: bold;
 }
 
 .header-nav ul li + li{
@@ -84,34 +75,15 @@ header {
 #mainvisual {
     background-color: #FCAE76;
     padding: 5% 0;
-    margin-bottom: 100px;
 }
 
-.mainvisual-container {
-    display: flex;
-}
-
-.mainvisual-image {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* TODO なぜこの記述方法なのか　親要素がレスポンシブ対応になっているため、自動的にレスポンシブ対応になる。 */
 .mainvisual-image img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
     border-radius: 50%;
-}
-
-.mainvisual-contents {
-    width: 70%;
-    margin-left: 3.75rem;
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .mainvisual-title, .mainvisual-subtitle {
@@ -123,45 +95,11 @@ header {
     font-weight: 700;
 }
 
-.social-links {
-    display: flex;
-    align-items: center;
-    margin-top: 56px;
-}
-
 .social-links li + li {
-    margin-right: 28px;
+    margin-left: 28px;
 }
 
 /* Hobby */
-#hobby {
-    margin-bottom: 100px;
-}
-
-.hobby-container {
-    margin-top: 24px;
-    display: flex;
-}
-
-.hobby-image {
-    width: 50%;
-    margin-right: 3%;
-}
-
-.hobby-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hobby-contents {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-weight: 600;
-}
-
 .hobby-contents p:first-child {
     text-indent: 1rem;
 }
@@ -172,36 +110,23 @@ header {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 12px;
 }
 
 /* Skills */
-#skills {
-    margin-bottom: 100px;
-}
-
 .skill-experience {
     font-family: "Noto Sans JP";
     color: #504A4A;
 }
 
 .skill-experience-items {
-    display: flex;
     margin-bottom: 8px;
 }
 
 .skill-experience-items li {
     font-family: "Noto Sans JP";
-    font-size: 1.2rem;
+    font-weight: bold;
     color: #504A4A;
-    padding: 0 12px;
-}
-
-.skill-experience-items li:first-child {
-    padding-left: 0;
-}
-
-.skill-experience-items li + li {
-    border-left: 2px #504A4A solid;
 }
 
 .table-supplement {
@@ -212,6 +137,7 @@ header {
     width: 100%;
     border: 2px #504A4A solid;
     font-size: 1.2rem;
+    color: #504A4A;
 }
 
 .skills-table tr {

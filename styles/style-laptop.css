@@ -23,7 +23,33 @@
         font-size: 1.4375rem;
     }
 
+    /* Header */
+    .header-container {
+        height: 80px;
+    }
+
     /* Mainvisual */
+    #mainvisual {
+        margin-bottom: 100px;
+    }
+
+    .mainvisual-container {
+        display: flex;
+    }
+
+    .mainvisual-image {
+        width: 36%;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainvisual-contents {
+        width: 70%;
+        margin-left: 3.75rem;
+        display: flex;
+        align-items: center;
+    }
+
     i {
         font-size: 3rem;
     }
@@ -32,11 +58,22 @@
         height: 3rem; 
     } 
 
+    .social-links {
+        display: flex;
+        align-items: center;
+        margin-top: 56px;
+    }
+
     .social-links li{
         height: 3rem;
     }
 
+
     /* Hobby */
+    #hobby {
+        margin-bottom: 100px;
+    }
+
     .title {
         font-size: 3rem;
     }
@@ -45,13 +82,77 @@
         font-size: 1.5rem;
     }
 
-    .sentence-bottom {
+    .title, .sub-title {
+        text-align: left;
+    }
+
+    .hobby-supplement-mobile {
+        display: none;
+    }
+
+    .hobby-supplement {
         font-size: 1.2rem;
+        display: block;
+    }
+
+    .hobby-container {
+        width: 100%;
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .hobby-image {
+        width: 50%;
+        margin-right: 3%;
+    }
+    
+    /* TODO 画像の高さがcontainerの高さと一致しないのはなぜ */
+    .hobby-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .hobby-contents {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: 600;
     }
 
     /* Skills */
-    .skills-container th {
+    #skills {
+        margin-bottom: 100px;
+    }
+
+    .skill-experience-items {
+        display: flex;
+    }
+
+    .skill-experience-items li {
         font-size: 1.5rem;
+        padding: 0 12px;
+    }
+
+    .skill-experience-items li::before {
+        content: "";
+    }
+
+    .skill-experience-items li:first-child {
+        padding-left: 0;
+    }
+
+    .skill-experience-items li + li {
+        border-left: 2px #504A4A solid;
+    }
+
+    .skills-table th {
+        font-size: 1.5rem;
+    }
+
+    .skills-table td {
+        font-size: 1.4rem;
     }
 
 }

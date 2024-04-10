@@ -11,6 +11,10 @@
         font-size: 1.5rem;
     }
 
+    h3 {
+        font-size : 1.2rem;
+    }
+
     li {
         font-size: 1.5rem;
     }
@@ -19,7 +23,31 @@
         font-size: 1.2rem;
     }
 
+    /* Header */
+    .header-container {
+        height: 80px;
+    }
+
     /* Mainvisual */
+    #mainvisual {
+        margin-bottom: 100px;
+    }
+
+    .mainvisual-container {
+        display: flex;
+    }
+
+    .mainvisual-image {
+        width: 36%;
+    }
+
+    .mainvisual-contents {
+        width: 70%;
+        margin-left: 3.75rem;
+        display: flex;
+        align-items: center;
+    }
+
     i {
         font-size: 2.5rem;
     }
@@ -28,12 +56,98 @@
         height: 2.5rem; 
     }
 
+    .social-links {
+        display: flex;
+        align-items: center;
+        margin-top: 56px;
+    }
+
     .social-links li{
         height: 2.5rem;
     }
 
     /* Hobby  */
-    .sentence-bottom {
+    #hobby {
+        margin-bottom: 100px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .sub-title {
+        font-size: 1.2rem;
+    }
+
+    .title, .sub-title {
+        text-align: left;
+    }
+
+    .hobby-supplement-mobile {
+        display: none;
+    }
+
+    .hobby-supplement {
+        font-size: 1rem;
+        display: block;
+    }
+
+    .hobby-container {
+        width: 100%;
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .hobby-image {
+        width: 50%;
+        margin-right: 3%;
+    }
+    
+    .hobby-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .hobby-contents {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+
+    /* Skills */
+    #skills {
+        margin-bottom: 100px;
+    }
+
+    .skill-experience-items {
+        display: flex;
+    }
+
+    .skill-experience-items li {
+        font-size: 1.2rem;
+        padding: 0 12px;
+    }
+
+    .skill-experience-items li::before {
+        content: "";
+    }
+
+    .skill-experience-items li:first-child {
+        padding-left: 0;
+    }
+
+    .skill-experience-items li + li {
+        border-left: 2px #504A4A solid;
+    }
+
+    .skills-table th {
+        font-size: 1.2rem;
+    }
+
+    .skills-table td {
         font-size: 1.1rem;
     }
 

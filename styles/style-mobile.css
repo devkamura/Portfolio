@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+/* Default Styles */
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
 }
 
 li {
@@ -13,7 +18,34 @@ li {
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+
+/* Header */
+.header-container {
+    height: 40px;
+}
+
+/* Mainvisual */
+#mainvisual {
+    margin-bottom: 56px;
+}
+
+.mainvisual-container {
+    display: block;
+}
+
+.mainvisual-image {
+    width: 60%;
+    margin: 0 auto 16px;
+}
+
+.mainvisual-contents {
+    width: 100%;
+}
+
+.mainvisual-title, .mainvisual-subtitle {
+    text-align: center;
 }
 
 i {
@@ -24,7 +56,84 @@ i {
     height: 2rem; 
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
 .social-links li{
     height: 2rem;
+}
+
+/* Hobby  */
+#hobby {
+    margin-bottom: 56px;
+}
+
+.title {
+    font-size: 2.2rem;
+}
+
+.sub-title {
+    font-size: 1.1rem;
+}
+
+.title, .sub-title {
+    text-align: center;
+}
+
+.hobby-supplement-mobile {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hobby-supplement {
+    display: none;
+}
+
+.hobby-container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.hobby-image {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.hobby-contents {
+    width: 100%;
+    font-weight: 600;
+}
+
+/* Skills */
+#skills {
+    margin-bottom: 56px;
+}
+
+.skill-experience-items {
+    display: block;
+    margin-top: 8px;
+}
+
+.skill-experience-items li {
+    font-size: 0.9rem;
+    padding-left: 0;
+}
+
+.skill-experience-items li::before {
+    content: "・";
+}
+
+.skills-table th {
+    font-size: 0.9rem;
+}
+
+.skills-table td {
+    font-size: 0.8rem;
 }
 
