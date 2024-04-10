@@ -102,6 +102,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 12px;
+    box-shadow: 12px 12px #D9D9D9;
 }
 
 /* Skills */
