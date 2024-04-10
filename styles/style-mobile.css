@@ -138,3 +138,8 @@ i {
     font-size: 0.8rem;
 }
 
+/* Footer */
+.scroll-pageTop-btn {
+    width: 76px;
+    height: 76px;
+}

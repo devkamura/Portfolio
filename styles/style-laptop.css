@@ -160,6 +160,12 @@
         font-size: 1.4rem;
     }
 
+    /* Footer */
+    .scroll-pageTop-btn {
+        width: 84px;
+        height: 84px;
+    }
+
 }
 
 
