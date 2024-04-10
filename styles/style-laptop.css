@@ -50,6 +50,10 @@
         align-items: center;
     }
 
+    .mainvisual-title, .mainvisual-subtitle {
+        text-align: left;
+    }
+
     i {
         font-size: 3rem;
     }
@@ -60,6 +64,7 @@
 
     .social-links {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
         margin-top: 56px;
     }
