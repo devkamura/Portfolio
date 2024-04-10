@@ -149,6 +149,11 @@ th {
     border-right: 2px #504A4A solid;
 }
 
+.skills-table tr:last-child th, .skills-table tr:last-child td {
+    border-bottom: 2px #504A4A solid;
+}
+
+/* アコーディオンが閉じている場合 */
 .skills-table tr:nth-child(5) th, .skills-table tr:nth-child(5) td {
     border-bottom: 2px #504A4A solid;
 }
@@ -169,6 +174,7 @@ th {
     border-radius: 0 0 8px 0;
 }
 
+/* アコーディオンが閉じている場合 */
 .skills-table tr:nth-child(5) td:last-child {
     border-radius: 0 0 8px 0;
 }
@@ -194,7 +200,6 @@ th {
 }
 
 .experience-mark {
-    /* border-right: 1px #504A4A solid; */
     width: 10%;
 }
 
