@@ -156,6 +156,12 @@
         font-size: 1.1rem;
     }
 
+    /* Footer */
+    .scroll-pageTop-btn {
+        width: 84px;
+        height: 84px;
+    }
+
 }
 
 
