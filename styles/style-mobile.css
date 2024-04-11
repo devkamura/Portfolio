@@ -138,6 +138,20 @@ i {
     font-size: 0.8rem;
 }
 
+/* Works */
+.works-item-title {
+    font-size: 1.1rem;
+}
+
+.works-item p a {
+    font-size: 0.8rem;
+}
+
+.works-item i {
+    margin-right: 8px;
+    font-size: 1.4rem;
+}
+
 /* Footer */
 .scroll-pageTop-btn {
     width: 76px;
