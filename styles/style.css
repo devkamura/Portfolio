@@ -15,7 +15,6 @@ li {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -58,6 +57,10 @@ header {
     font-weight: bold;
 }
 
+.header-nav a {
+    color: #FFFFFF;
+}
+
 .header-nav ul li + li{
     margin-left: 30px;
 }
@@ -90,6 +93,10 @@ header {
     margin-left: 28px;
 }
 
+.social-links a {
+    color: #FFFFFF;
+}
+
 /* Hobby */
 .hobby-contents p:first-child {
     text-indent: 1rem;
@@ -109,6 +116,7 @@ header {
 .skill-experience {
     font-family: "Noto Sans JP";
     color: #504A4A;
+    padding-left: 0;
 }
 
 .skill-experience-items {
@@ -258,5 +266,45 @@ small {
     padding: 0 3px;
 }
 
+/* Works */
+#Works {
+    margin-bottom: 100px;
+}
+
+.works-container {
+    padding: 24px 4%;
+    background-color: #FDF2E9;
+}
+
+.works-item {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.works-item-title {
+    color: #FCAE76;
+}
+
+.works-item-image img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.works-item p {
+    margin-top: 8px;
+}
+
+.works-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-item i {
+    margin-right: 8px;
+}
 
 

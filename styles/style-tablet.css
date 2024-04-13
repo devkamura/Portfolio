@@ -156,6 +156,19 @@
         font-size: 1.1rem;
     }
 
+    /* Works */
+    .works-item-title {
+        font-size: 1.5rem;
+    }
+
+    .works-item p a {
+        font-size: 1.1rem;
+    }
+
+    .works-item i {
+        font-size: 2.2rem;
+    }
+
     /* Footer */
     .scroll-pageTop-btn {
         width: 84px;
