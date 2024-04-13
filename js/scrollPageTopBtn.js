@@ -14,6 +14,8 @@ $(function() {
     });
 
     $(".scroll-pageTop-btn").click(function() {
+        // ボタン押下時の挙動 -8px下にずらす。
+        $(".scroll-pageTop-btn").animate({"bottom": 92}, 200);
         $("body, html").animate({
             scrollTop: 0
         }, 400);
