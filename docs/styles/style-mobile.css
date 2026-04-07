@@ -68,7 +68,7 @@ i {
 
 /* Hobby  */
 #hobby {
-    margin-bottom: 56px;
+    margin-bottom: 0;
 }
 
 .title {
@@ -81,6 +81,11 @@ i {
 
 .title, .sub-title {
     text-align: center;
+}
+
+.title::after {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hobby-supplement-mobile {
@@ -113,7 +118,7 @@ i {
 
 /* Skills */
 #skills {
-    margin-bottom: 56px;
+    margin-bottom: 0;
 }
 
 .skill-experience-items {
